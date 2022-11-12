@@ -1,6 +1,6 @@
-name: Nodeathvoid
+name: Slavery
 version: '${project.version}'
-main: me.tranzitron.nodeathvoid.Nodeathvoid
+main: us.babey.slavery.Main
 api-version: 1.19
 authors: [ Tranzitron ]
 description: Just a plugin where if a player falls into the void, they don't fall all the way but automatically gets teleported to spawn.
