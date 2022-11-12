@@ -1,5 +1,6 @@
 package us.babey.slavery;
 
+import us.babey.slavery.Listeners.InteractListener;
 import us.babey.slavery.Listeners.JoinListener;
 import us.babey.slavery.Listeners.MoveListener;
 import org.bukkit.Bukkit;
@@ -23,5 +24,6 @@ public final class Main extends JavaPlugin implements Listener {
         PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new JoinListener(this), this);
         pm.registerEvents(new MoveListener(this), this);
+        pm.registerEvents(new InteractListener(this),this);
     }
 }
